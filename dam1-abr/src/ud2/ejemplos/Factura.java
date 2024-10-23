@@ -16,6 +16,6 @@ public class Factura {
         else{
             System.out.println("Tienes que pagar: "+totalIva+" EUROS");
         }
-
+        sc.close();
     }
 }

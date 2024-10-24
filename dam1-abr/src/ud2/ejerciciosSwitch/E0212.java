@@ -17,7 +17,7 @@ public class E0212 {
 
         switch (mes) {
             case 2:
-                if (dia <=28) {
+                if (dia <=28 && dia >=1) {
                     System.out.println("tu dia es valido");
                     
                 }
@@ -26,12 +26,12 @@ public class E0212 {
                 }
                 break;
                 case 4,6,9,11:
-                if (dia<31) {
+                if (dia<31 && dia >=1) {
                     System.out.println("tu dia es valido");
                 }
                 break;
             default: 
-            if (dia <=31) {
+            if (dia <=31 && dia >=1) {
                 System.out.println("tu dia es valido");
                 
             }

@@ -17,12 +17,15 @@ public class EP0213 {
         cantidacomida = sc.nextDouble();
         System.out.println("Introduce lo que consumen de comida cada animal");
         consumoAnimal = sc.nextDouble();
-        
 
-        cantidadsobrante = cantidacomida - cantidadAnimales*consumoAnimal;
-        if (cantidacomida>(cantidadAnimales*consumoAnimal)) {
-            System.out.println("Tienes comida suficiente y te sobraran: "+ cantidadsobrante);
-            
+        cantidadsobrante = cantidacomida - cantidadAnimales * consumoAnimal;
+
+        if (cantidacomida > (cantidadAnimales * consumoAnimal)) {
+            System.out.println("Tienes comida suficiente y te sobraran: " + cantidadsobrante);
+
+        }
+        else{
+            System.out.println("No tienes suficientes kilos te faltan:"+ cantidadsobrante*-1);
         }
     }
 }

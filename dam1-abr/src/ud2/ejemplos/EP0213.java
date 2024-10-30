@@ -17,7 +17,7 @@ public class EP0213 {
         cantidacomida = sc.nextDouble();
         System.out.println("Introduce lo que consumen de comida cada animal");
         consumoAnimal = sc.nextDouble();
-
+        sc.close();
         cantidadsobrante = cantidacomida - cantidadAnimales * consumoAnimal;
 
         if (cantidacomida > (cantidadAnimales * consumoAnimal)) {

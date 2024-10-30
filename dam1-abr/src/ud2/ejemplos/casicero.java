@@ -11,7 +11,7 @@ public class casicero {
         if (numero > -1 && numero < 1 && numero != 0) {
             System.out.println("Tu numero es casi cero");
         } else {
-            System.out.println("Tu numero no es casi cero");
+            System.out.println("Tu numero no es casi cero Este programa fue fabricado por ABR");
         }
 
     }

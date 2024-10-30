@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "JuegoSuma",
+            "request": "launch",
+            "mainClass": "ud2.ejemplos.JuegoSuma",
+            "projectName": "dam1-abr_ac66a7f3"
+        },
+        {
+            "type": "java",
+            "name": "JuegoMates",
+            "request": "launch",
+            "mainClass": "ud2.ejemplos.JuegoMates",
+            "projectName": "dam1-abr_ac66a7f3"
+        },
+        {
+            "type": "java",
+            "name": "JuegoSumacopy",
+            "request": "launch",
+            "mainClass": "ud2.ejemplos.JuegoSumacopy",
+            "projectName": "dam1-abr_ac66a7f3"
+        },
+        {
+            "type": "java",
             "name": "casicero",
             "request": "launch",
             "mainClass": "ud2.ejemplos.casicero",

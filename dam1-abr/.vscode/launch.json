@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "transformaraBinario",
+            "request": "launch",
+            "mainClass": "ud2.bucles.transformaraBinario",
+            "projectName": "dam1-abr_ac66a7f3"
+        },
+        {
+            "type": "java",
+            "name": "multiplos7",
+            "request": "launch",
+            "mainClass": "ud2.bucles.multiplos7",
+            "projectName": "dam1-abr_ac66a7f3"
+        },
+        {
+            "type": "java",
+            "name": "E0306",
+            "request": "launch",
+            "mainClass": "ud2.bucles.E0306",
+            "projectName": "dam1-abr_ac66a7f3"
+        },
+        {
+            "type": "java",
             "name": "JuegoSuma",
             "request": "launch",
             "mainClass": "ud2.ejemplos.JuegoSuma",

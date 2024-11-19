@@ -41,17 +41,17 @@ public class Supermarket {
         while (precioArticulo != -1) {
          System.out.println("introduce el dinero que cuesta el articulo");
             precioArticulo = sc.nextDouble();
-        if (precioArticulo *100 %1 ==0) {
+        if ((precioArticulo * 100) %1 ==0) {
             
             System.out.println("Ahora introduce la cantidad");
-            cantidad = sc.nextInt();
+          cantidad = sc.nextInt();
             precioPagar = precioPagar + (precioArticulo*cantidad);
             System.out.println("su total es "+precioPagar+" introduzca -1 para pasar a la ventana de pagar");
     
             
        
         }else{
-             System.out.println("Has introducido mas de 2 decimales cerrando programa");
+             System.out.println(" ERROR COMPRUEBA SI Has introducido mas de 2 decimales cerrando programa");
         break;
            
         }
@@ -74,42 +74,44 @@ sc.close();
 
 
 
-double b50 = precioPagar/CINCUENTA;
-precioPagar = precioPagar%CINCUENTA;
+double b50 = vuelta/CINCUENTA;
+vuelta = vuelta%CINCUENTA;
 
-double b20 = precioPagar/VEINTE;
-precioPagar = precioPagar%VEINTE;
+double b20 = vuelta/VEINTE;
+vuelta = vuelta%VEINTE;
 
-double b10 = precioPagar/DIEZ;
-precioPagar = precioPagar%DIEZ;
+double b10 = vuelta/DIEZ;
+vuelta = vuelta%DIEZ;
 
-double b5 = precioPagar/CINCO;
-double m2 = precioPagar/2;
-precioPagar =precioPagar%2;
+double b5 = vuelta/CINCO;
+vuelta =vuelta%CINCO;
 
-double m1 = precioPagar/1;
-precioPagar =precioPagar%1;
+double m2 = vuelta/2;
+vuelta =vuelta%2;
 
-double c50 = precioPagar/0.50;
-precioPagar =precioPagar%0.50;
+double m1 = vuelta/1;
+vuelta = vuelta%1;
 
-double c20 = precioPagar/0.20;
-precioPagar =precioPagar%0.20;
+double c50 = vuelta/0.50;
+vuelta = vuelta%0.50;
 
-double c10 = precioPagar/0.10;
-precioPagar =precioPagar%0.10;
+double c20 = vuelta/0.20;
+vuelta = vuelta%0.20;
 
-double c5 = precioPagar/0.5;
-precioPagar =precioPagar%0.5;
+double c10 = vuelta/0.10;
+vuelta = vuelta%0.10;
 
-double c2 = precioPagar/0.2;
-precioPagar =precioPagar%0.2;
+double c5 = vuelta/0.5;
+vuelta = vuelta%0.5;
 
-double c1 = precioPagar/0.1;
-precioPagar =precioPagar%0.1;
+double c2 = vuelta/0.2;
+vuelta = vuelta%0.2;
+
+double c1 = vuelta/0.1;
+vuelta = vuelta%0.1;
 
 
-System.out.printf("billetes de 50:\t%d\nbilletes de 20:\t%d\nbilletes de 10:\t%d\nbilletes de 5:\t%d\n monedas de 2:\td\nmonedas de 1:\td\nmonedas de 50:\td\nmonedas de 20:\td\nmonedas de 10:\td\nmonedas de 5 centimos:\td\nmonedas de 2 centimos:\td\nmonedas de 1 centimos:\td\n",b50,b20,b10,b5,m2,m1,c50,c20,c10,c5,c2,c1);
+System.out.println("tu vuelta es"+b50+""+b20+""+b10+""+b5+""+m2+""+m1+""+c50+""+c20+""+c10+""+c5+""+c2+""+c1);
 
 
 

@@ -33,6 +33,35 @@ public class Util {
         }
 
     }
+    public static String imc(double kg, double cm){
+        String resultado="";
+       double IndiceDeMasaCorporal = kg /  Math.pow(cm,2);
+       if (IndiceDeMasaCorporal<18.50) {
+        resultado = "Bajo Peso";
+        
+       }
+       else
+       if (IndiceDeMasaCorporal<25) {
+        resultado="Normal";
+        
+       }
+       else
+       if (IndiceDeMasaCorporal>=25) {
+        if (IndiceDeMasaCorporal>=30) {
+            resultado = "obesidad";
+            
+        }
+        else{
+            resultado = "Sobrepeso";
+        }
+        
+       }else{
+        System.out.println("?¿?¿?¿?¿¿?¿?¿¿??¿??¿¿??¿?¿¿¿??¿?¿¿??¿?¿?¿?");
+       }
+        
+        return resultado;
+    }
+    
     public static String numeroText(int n){
 
 

@@ -1,4 +1,4 @@
-package ud2.practicamuchasrepaso;
+package ud2.ejercicios.abr20241118;
 /*
  * 1. Supermercado
 Supermercado.java
@@ -30,10 +30,10 @@ import java.util.*;
 public class Supermarket {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        final int CINCUENTA = 50;
-        final int VEINTE = 20;
-        final int DIEZ = 10;
-        final int CINCO = 5;
+        final double CINCUENTA = 50;
+        final double VEINTE = 20;
+        final double DIEZ = 10;
+        final double CINCO = 5;
         double precioArticulo = 0;
         double precioPagar = 0;
         int cantidad = 0;
@@ -74,40 +74,40 @@ sc.close();
 
 
 
-double b50 = vuelta/CINCUENTA;
+double b50 = (int)vuelta/CINCUENTA;
 vuelta = vuelta%CINCUENTA;
 
-double b20 = vuelta/VEINTE;
+double b20 = (int)vuelta/VEINTE;
 vuelta = vuelta%VEINTE;
 
-double b10 = vuelta/DIEZ;
+double b10 =  (int)vuelta/DIEZ;
 vuelta = vuelta%DIEZ;
 
-double b5 = vuelta/CINCO;
+double b5 =  (int)vuelta/CINCO;
 vuelta =vuelta%CINCO;
 
-double m2 = vuelta/2;
+double m2 = (int) vuelta/2;
 vuelta =vuelta%2;
 
-double m1 = vuelta/1;
+double m1 = (int) vuelta/1;
 vuelta = vuelta%1;
 
-double c50 = vuelta/0.50;
+double c50 =  (int)vuelta/0.50;
 vuelta = vuelta%0.50;
 
-double c20 = vuelta/0.20;
+double c20 =  (int)vuelta/0.20;
 vuelta = vuelta%0.20;
 
-double c10 = vuelta/0.10;
+double c10 =  (int)vuelta/0.10;
 vuelta = vuelta%0.10;
 
-double c5 = vuelta/0.5;
+double c5 = (int) vuelta/0.5;
 vuelta = vuelta%0.5;
 
-double c2 = vuelta/0.2;
+double c2 = (int) vuelta/0.2;
 vuelta = vuelta%0.2;
 
-double c1 = vuelta/0.1;
+double c1 = (int) vuelta/0.1;
 vuelta = vuelta%0.1;
 
 

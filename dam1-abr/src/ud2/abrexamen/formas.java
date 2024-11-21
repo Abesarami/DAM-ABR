@@ -21,11 +21,11 @@ public class formas {
             } catch (InputMismatchException e) {
                 System.out.println("Valor no válido intentalo de nuevo");
                 if (numerofallos <= 3) {
-
+                    
                     repetir = true;
                     numerofallos = numerofallos + 1;
                 }
-
+                sc.nextLine();
             }
         } while (repetir);
 

@@ -1,6 +1,9 @@
 package ud3.ejemplos;
-import ud3.ejemplos.Banco;
-public class banco2 {
+/*import ud3.ejemplos.Banco;/* */
+
+
+
+public class BaInterfaz {
         public static void main(String[] args) {
            
             Banco b = new Banco( " Antonio ", " 72321342B ");

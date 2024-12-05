@@ -17,6 +17,12 @@ public class Punto {
     public void setPosicionY(double posicionY) {
         this.posicionY = posicionY;
     }
+    public void setPosicion(double posicionX, double posicionY){
+        this.posicionX = posicionX;
+        this.posicionY = posicionY;
+    }
+
+
     public String getPosicion() {
         
         return "La posicion de el punto con id "+iD+" es "+posicionX+","+posicionY ;

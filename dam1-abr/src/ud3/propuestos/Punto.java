@@ -2,31 +2,41 @@ package ud3.propuestos;
 
 public class Punto {
     //Datos 
-    private String iD;
+    private int iD ;
+    private static int contador;
     private double posicionX = 0;
     private double posicionY = 0;
+
     
-    public Punto(String iD ) {
-        this.iD = iD;
-        
+    public Punto() {
+        this.iD = contador++;     
     }
-
-    public double getPosicionX() {
-        return posicionX;
-    }
-
     public void setPosicionX(double posicionX) {
         this.posicionX = posicionX;
     }
-
-    public double getPosicionY() {
-        return posicionY;
-    }
-
     public void setPosicionY(double posicionY) {
         this.posicionY = posicionY;
     }
+    public String getPosicion() {
+        
+        return "La posicion de el punto con id "+iD+" es "+posicionX+","+posicionY ;
+    }
+    public void desplazarPunto(double despX, double despY) {
 
+        this.posicionX = this.posicionX + despX;
+        this.posicionY = this.posicionY +despY;
+    }
+    
+    public double getPosicionX() {
+        return posicionX;
+    }
+    public double getPosicionY() {
+        return posicionY;
+    }
+    public static double distanciaEuclidiana(double posicionX,double posicionXdos,double posicionY,double posicionYdos){
+        double distanciaEuclidiana = Math.sqrt(Math.pow(posicionX - posicionXdos, 2) + Math.pow(posicionY - posicionYdos, 2));
+        return distanciaEuclidiana;
+    }
     
     
 }

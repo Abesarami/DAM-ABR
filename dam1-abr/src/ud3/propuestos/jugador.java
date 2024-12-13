@@ -2,7 +2,7 @@ package ud3.propuestos;
 
 
 
-public class Jugador{
+public class jugador{
 
 
 enum POSICION {
@@ -17,11 +17,11 @@ String name,dni;
 double estatura;
 POSICION posicion;
 
-public Jugador(String name){
+public jugador(String name){
 this.name = name;
 }
 
-public Jugador(String name, POSICION posicion){
+public jugador(String name, POSICION posicion){
 this(name);
 this.posicion = posicion;
 }

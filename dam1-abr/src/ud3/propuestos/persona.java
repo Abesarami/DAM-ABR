@@ -49,6 +49,13 @@ class Persona {
     }
 
     // Métodos getter y setter
+   
+
+    // Método estático
+    public static int getContadorPersonas() {
+        return contadorPersonas;
+    }
+
     public String getNombre() {
         return nombre;
     }
@@ -65,9 +72,8 @@ class Persona {
         this.edad = edad;
     }
 
-    // Método estático
-    public static int getContadorPersonas() {
-        return contadorPersonas;
+    public static void setContadorPersonas(int contadorPersonas) {
+        Persona.contadorPersonas = contadorPersonas;
     }
 
     // Método para sobrescribir en subclases

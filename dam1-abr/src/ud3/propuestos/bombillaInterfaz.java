@@ -1,6 +1,6 @@
 package ud3.propuestos;
 
-import ud3.propuestos.Bombilla;
+
 
 
 public class bombillaInterfaz {
@@ -15,6 +15,18 @@ public class bombillaInterfaz {
         System.out.println(b1.estado());
         Bombilla.apagarRegleta();
         System.out.println(b1.estado());
+       
+        System.out.println(b2.estado());
+        b2.encenderBombilla();
+        System.out.println(b2.estado());
+        Bombilla.apagarRegleta();
+        System.out.println(b2.estado());
+       
+        System.out.println(b3.estado());
+        b3.encenderBombilla();
+        System.out.println(b3.estado());
+        Bombilla.apagarRegleta();
+        System.out.println(b3.estado());
        
        
     }

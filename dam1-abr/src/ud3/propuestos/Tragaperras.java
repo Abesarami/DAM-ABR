@@ -3,11 +3,11 @@ import java.util.Random;
 import java.util.Scanner;
 public class Tragaperras {
     public static void main(String[] args) {
-        tragaperras(100000);
+        tragaperras(100);
     }
     public static void tragaperras(double dineroCuenta) {
         // Símbolos posibles en la tragaperras
-        String[] simbolos = { "1", "2", "3", "7", "4" };
+        String[] simbolos = { "1", "2", "3", "7", "4",};
         Random random = new Random();
         Scanner sc = new Scanner(System.in);
         System.out.println("¡Bienvenido a la tragaperras!");
@@ -22,17 +22,21 @@ public class Tragaperras {
                 switch (input) {
                     case 1:
                         System.out.println("Cuanto fichas quieres meter?");
-                        double dinero = sc.nextDouble();
+                        int dinero = sc.nextInt();
                         if (dinero <= dineroCuenta) {
                             dineroCuenta = dineroCuenta - dinero;
                             // Generar los símbolos de las 3 ruedas
+                           
                             String rueda1 = simbolos[random.nextInt(simbolos.length)];
                             String rueda2 = simbolos[random.nextInt(simbolos.length)];
                             String rueda3 = simbolos[random.nextInt(simbolos.length)];
+                           
                             // Mostrar el resultado
+                           
                             System.out.println("-------------");
                             System.out.println("| " + rueda1 + " | " + rueda2 + " | " + rueda3 + " |");
                             System.out.println("-------------");
+                           
                             // Calcular el resultado
                             if (rueda1.equals(rueda2) && rueda2.equals(rueda3)) {
                                 System.out.println("¡Jackpot!  ¡Has ganado con " + rueda1 + "!");

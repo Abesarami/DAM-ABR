@@ -66,6 +66,14 @@ public class Tragaperras2 {
                                 System.out.println("¡Bien hecho! 3 símbolos coinciden. Felicidades!!");
                                 System.out.println("Tu dinero se a multiplicado por 2");
                                 dineroCuenta = dineroCuenta + dinero * 2;
+                            } else if (rueda3.equals(ruedaArriba3) && ruedaArriba3.equals(ruedaAbajo3)) {
+                                System.out.println("¡Bien hecho! 3 símbolos coinciden. Felicidades!!");
+                                System.out.println("Tu dinero se a multiplicado por 2");
+                                dineroCuenta = dineroCuenta + dinero * 2;
+                            } else if (rueda2.equals(ruedaArriba2) && ruedaArriba2.equals(ruedaAbajo2)) {
+                                System.out.println("¡Bien hecho! 3 símbolos coinciden. Felicidades!!");
+                                System.out.println("Tu dinero se a multiplicado por 2");
+                                dineroCuenta = dineroCuenta + dinero * 2;
                             } else if (ruedaArriba1.equals(rueda2) && rueda2.equals(ruedaArriba3)) {
                                 System.out.println("¡Bien hecho! 3 símbolos coinciden. Felicidades!!");
                                 System.out.println("Tu dinero se a multiplicado por 2");
@@ -78,6 +86,18 @@ public class Tragaperras2 {
                                 System.out.println("¡Bien hecho! 3 símbolos coinciden. Felicidades!!");
                                 System.out.println("Tu dinero se a multiplicado por 2");
                                 dineroCuenta = dineroCuenta + dinero * 2;
+                            }else if (ruedaAbajo1.equals(rueda2) && rueda2.equals(ruedaArriba3)) {
+                                    System.out.println("¡Bien hecho! 3 símbolos coinciden. Felicidades!!");
+                                    System.out.println("Tu dinero se a multiplicado por 2");
+                                    dineroCuenta = dineroCuenta + dinero * 2;
+                            }else if (ruedaAbajo1.equals(rueda2) && rueda2.equals(ruedaAbajo3)) {
+                                    System.out.println("¡Bien hecho! 3 símbolos coinciden. Felicidades!!");
+                                    System.out.println("Tu dinero se a multiplicado por 2");
+                                    dineroCuenta = dineroCuenta + dinero * 2;
+                            }else if (ruedaAbajo1.equals(ruedaAbajo2) && rueda2.equals(ruedaAbajo3)) {
+                                    System.out.println("¡Bien hecho! 3 símbolos coinciden. Felicidades!!");
+                                    System.out.println("Tu dinero se a multiplicado por 2");
+                                    dineroCuenta = dineroCuenta + dinero * 2;
                             }else {
                                 System.out.println("No hay suerte esta vez. Inténtalo de nuevo. ");
                                 System.out.println("Tu dinero se a perdido");

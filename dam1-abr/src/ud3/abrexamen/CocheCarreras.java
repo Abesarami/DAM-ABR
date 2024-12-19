@@ -87,7 +87,7 @@ public class CocheCarreras {
     }
 
     public void usarTurbo() {
-        if (turboRestante != 0 && turboRestante>0) {
+            if (turboRestante != 0 && turboRestante>0) {
           if ((velocidadMaxima * 1.5) <= autonomiaRestante) {
             this.distanciaRecorrida = distanciaRecorrida + velocidadMaxima * 1.5;
             this.turboRestante = turboRestante - 1;

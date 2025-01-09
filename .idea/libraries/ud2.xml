@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="ud2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dam1-abr/src/ud2/abrexamen.zip!/" />
+      <root url="jar://$PROJECT_DIR$/dam1-abr/src/ud2/abrexamenrec.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

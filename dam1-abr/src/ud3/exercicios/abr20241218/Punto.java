@@ -1,4 +1,4 @@
-package ud3.propuestos;
+package ud3.exercicios.abr20241218;
 
 public class Punto {
     //Datos 

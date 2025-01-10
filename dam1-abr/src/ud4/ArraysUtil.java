@@ -3,7 +3,16 @@ package ud4;
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
-
+/* 
+ * 
+ * Chuleta 
+ * 
+ * si quieres copiar un array la manera facil es usar Arrays.CopyOf((el array),(la longitud del array suele ser nombre.lenght))
+ * hay muchas mas versiones de este metodo para poder copiar solo tramos 
+ * tambien puedes copiar clonandolo con nombreArrayClonado = nombreArray.clone() ¡TAMBIEN SE USA CON OBJETOS!
+ * 
+ * 
+ */
 public class ArraysUtil {
 
     /**

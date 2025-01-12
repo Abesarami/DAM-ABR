@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antonio Besada Ramilo</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+
+        h1 {
+            color: #AD6FA0;
+            font-family: Verdana, sans-serif;
+            text-align: center;
+        }
+
+
+        .pregunta {
+            color: #9D9FF9;
+            font-weight: bold;
+        }
+
+
+        .respuesta {
+            color: #444444;
+            margin-left: 20px;
+        }
+
+
+        button {
+            background-color: #AD6FA0;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 10px;
+        }
+
+        button:hover {
+            background-color: #924A87;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cuestionario de HTML</h1>
+
+    <ol>
+        <li class="pregunta">Las etiquetas &lt;ol&gt; y &lt;li&gt; se emplean para crear
+            <div class="respuesta">
+                <input type="radio" name="pregunta1" id="p1a"> <label for="p1a">Una tabla</label><br>
+                <input type="radio" name="pregunta1" id="p1b"> <label for="p1b">Una lista ordenada</label><br>
+                <input type="radio" name="pregunta1" id="p1c"> <label for="p1c">Una lista desordenada</label>
+            </div>
+        </li>
+
+        <li class="pregunta">En HTML, para definir que el idioma principal de una página es el español se emplea
+            <div class="respuesta">
+                <input type="radio" name="pregunta2" id="p2a"> <label for="p2a">&lt;html lang="es"&gt;</label><br>
+                <input type="radio" name="pregunta2" id="p2b"> <label for="p2b">&lt;head id="es"&gt;</label><br>
+                <input type="radio" name="pregunta2" id="p2c"> <label for="p2c">&lt;head lang="es"&gt;</label>
+            </div>
+        </li>
+
+        <li class="pregunta">Indica qué etiqueta se usa en HTML para definir el título de una tabla:
+            <div class="respuesta">
+                <input type="text" name="pregunta3" id="pregunta3" style="width: 100%;">
+            </div>
+        </li>
+
+        <li class="pregunta">¿Qué define la etiqueta &lt;th&gt; en HTML?
+            <div class="respuesta">
+                <input type="radio" name="pregunta4" id="p4a"> <label for="p4a">Una fila en una tabla</label><br>
+                <input type="radio" name="pregunta4" id="p4b"> <label for="p4b">Un elemento de una lista de definición</label><br>
+                <input type="radio" name="pregunta4" id="p4c"> <label for="p4c">Una celda en una tabla</label>
+            </div>
+        </li>
+
+        <li class="pregunta">Describe cómo se puede incluir el estilo CSS en una página HTML:
+            <div class="respuesta">
+                <textarea name="pregunta5" id="pregunta5" rows="4" style="width: 100%;"></textarea>
+            </div>
+        </li>
+
+        <li class="pregunta">Selecciona las afirmaciones que son verdaderas:
+            <div class="respuesta">
+                <input type="checkbox" name="pregunta6" id="p6a"> <label for="p6a">En HTML, para crear un hipervínculo se usa la etiqueta &lt;a&gt;.</label><br>
+                <input type="checkbox" name="pregunta6" id="p6b"> <label for="p6b">Los elementos de una lista desplegable se definen con li.</label><br>
+                <input type="checkbox" name="pregunta6" id="p6c"> <label for="p6c">Los atributos &lt;rowspan&gt; y &lt;colspan&gt; son atributos de la etiqueta div.</label><br>
+                <input type="checkbox" name="pregunta6" id="p6d"> <label for="p6d">Las etiquetas &lt;h1&gt; y &lt;h2&gt; se usan para definir encabezados.</label><br>
+                <input type="checkbox" name="pregunta6" id="p6e"> <label for="p6e">La etiqueta &lt;ol&gt; debe ir definida dentro de la etiqueta &lt;ul&gt;.</label><br>
+                <input type="checkbox" name="pregunta6" id="p6f"> <label for="p6f">La etiqueta &lt;li&gt; debe ir definida dentro de la etiqueta &lt;ul&gt;.</label>
+            </div>
+        </li>
+    </ol>
+
+    <div style="text-align: center;">
+        <button type="button">Limpiar</button>
+        <button type="button">Comprobar</button>
+    </div>
+</body>
+</html>

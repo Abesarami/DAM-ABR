@@ -109,13 +109,27 @@ public class ArraysUtil {
 
         return maximo;
     }
+    public static int[] sinRepetidos(int t[]){
+      int[]array= t.clone();
+        for(int i = 0; i < t.length; i++){
+            Arrays.sort(array);
+            
+            if (Arrays.binarySearch(array, i)==1    ) {
+                
+            }
+            
+        }
+
+        return array;
+        
+    }
 
     /**
      * @param longitud
      * @param fin
      * @return
      */
-    static int[] rellenaPares(int longitud, int fin) {
+    public static int[] rellenaPares(int longitud, int fin) {
         int[] t = new int[longitud];
         Random rnd = new Random();
 

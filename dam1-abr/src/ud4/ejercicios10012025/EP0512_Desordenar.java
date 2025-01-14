@@ -1,6 +1,6 @@
 package ud4.ejercicios10012025;
 
-import java.lang.reflect.Array;
+
 import java.util.Arrays;
 import java.util.Random;
 
@@ -9,7 +9,7 @@ import static ud4.ArraysUtil.arrayAleatorio;
 
 public class EP0512_Desordenar {
     public static void main(String[] args) {
-       int t[] = arrayAleatorio(6,1,10);
+       int t[] = arrayAleatorio(60,1,10);
         Arrays.sort(t);
         System.out.println(Arrays.toString(t));
        desordenar(t);

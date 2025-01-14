@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="86983cdb-1c1d-479b-b9b2-7d7826e59da8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/dam1-abr/src/ud3/exercicios/abr20241218/Bombilla.java" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/src/ud3/exercicios/abr20241218/Bombilla.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/src/ud3/exercicios/abr20241218/Punto.java" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/src/ud3/exercicios/abr20241218/Punto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/src/ud3/exercicios/abr20241218/PuntoInterfaz.java" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/src/ud3/exercicios/abr20241218/PuntoInterfaz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/src/ud3/exercicios/abr20241218/bombillaInterfaz.java" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/src/ud3/exercicios/abr20241218/bombillaInterfaz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/src/ud3/exercicios/abr20241218/jugador.java" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/src/ud3/exercicios/abr20241218/jugador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud4/apuntes/E0511.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dam1-abr/src/ud2/ejercicios/abr20241118/Radar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dam1-abr/src/ud4/ejercicios10012025/EP0512_Desordenar.java" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/src/ud4/ejercicios10012025/EP0512_Desordenar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,25 +25,53 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2rLGv7ULXvoKVFsTf2wrUqmx6r4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.EP0512_Desordenar.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Antonio/Desktop/Programación/DAM-ABR",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="EP0512_Desordenar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ud4.ejercicios10012025.EP0512_Desordenar" />
+      <module name="DAM-ABR" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ud4.ejercicios10012025.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EP0512_Desordenar" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -59,10 +89,22 @@
       <option name="presentableId" value="Default" />
       <updated>1736331173543</updated>
       <workItem from="1736331209952" duration="391000" />
+      <workItem from="1736857170569" duration="1831000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dam1-abr/src/ud4/ejercicios10012025/EP0512_Desordenar.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

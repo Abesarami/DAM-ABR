@@ -3,6 +3,9 @@ package ud4;
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
+
+import repaso.repaso;
+
 /* 
  * 
  * Chuleta 
@@ -109,19 +112,20 @@ public class ArraysUtil {
 
         return maximo;
     }
-    public static int[] sinRepetidos(int t[]){
-      int[]array= t.clone();
-        for(int i = 0; i < t.length; i++){
+
+    public static int[] sinRepetidos(int t[]) {
+        int[] array = t.clone();
+        for (int i = 0; i < t.length; i++) {
             Arrays.sort(array);
-            
-            if (Arrays.binarySearch(array, i)==1    ) {
-                
+
+            if (Arrays.binarySearch(array, i) == 1) {
+
             }
-            
+
         }
 
         return array;
-        
+
     }
 
     /**
@@ -151,4 +155,32 @@ public class ArraysUtil {
 
     }
 
+    public static  void mostrarMatriz(int[][] t) {
+        for (int i = 0; i < t.length; i++) {
+            for (int j = 0; j < t[i].length; j++) {
+                System.out.print(t[i][j] + " ");
+            }
+            System.out.println();
+
+        }
+
+    }
+
+    public static int[][] matrizAleatoria(int x, int y,int min,int max){
+        int[][] t = new int[x][y];
+        Random rnd = new Random();
+        for (int i = 0; i < t.length; i++) {
+            for (int j = 0; j < t[i].length; j++) {
+                t[i][j]= rnd.nextInt(min,max+1);
+            }
+            
+
+        }
+        return t;
+    }
+
+    public static void main(String[] args) {
+        int[][] t = matrizAleatoria(10, 10, 10, 20);
+        mostrarMatriz(t);
+    }
 }

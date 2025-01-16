@@ -31,6 +31,7 @@ public class ArrayNumeros {
         System.out.println("Media de números positivos: " + sumaPos / contPos); // División entera sin decimales
         System.out.println("Media de números negativos: " + sumaNeg / contNeg); // División entera sin decimales
         System.out.println("Número de ceros: " + contCeros);
+        sc.close();
     }
         
         private static void leerNumeros(int[] t) {

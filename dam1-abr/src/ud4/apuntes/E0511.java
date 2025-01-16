@@ -20,6 +20,7 @@ public class E0511 {
             mostrarPistas(contraseña, contraseñaUsuario);
 
         }
+        sc.close();
     }
 
     private static int[] leerCombinacion(int n) {

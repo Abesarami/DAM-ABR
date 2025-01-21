@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86983cdb-1c1d-479b-b9b2-7d7826e59da8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud4/apuntes/Parejas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/src/ud4/ejercicios10012025/EP0512_Desordenar.java" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/src/ud4/ejercicios10012025/EP0512_Desordenar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,10 +92,29 @@
       <workItem from="1736934657344" duration="673000" />
       <workItem from="1736935385856" duration="1146000" />
       <workItem from="1736939284427" duration="27000" />
+      <workItem from="1737458517592" duration="336000" />
+      <workItem from="1737460184664" duration="87000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -13,6 +13,6 @@ public class E0512 {
             }
         }
     
-        mostrarMatriz(t);
+        ArraysUtil.mostrarMatriz(t);
     } 
 }

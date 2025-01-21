@@ -183,4 +183,26 @@ public class ArraysUtil {
         int[][] t = matrizAleatoria(10, 10, 10, 20);
         mostrarMatriz(t);
     }
+
+    public static int[] ColumnaMayorSuma(int[][] t){
+        int mayor = 0;
+        int aux=0;
+        int valori=0;
+        for(int i = 0;i<t.length;i++){
+            for (int j = 0; j < t[i].length; j++) {
+                aux = aux+t[i][j];
+            }
+            if (aux>mayor) {
+                mayor = aux;
+                valori=i;
+                
+            }else if(aux==mayor){
+                mayor = aux;
+                valori=i;
+                System.out.println("ha habido empate enseñaremos el ultimo que se ha visto");
+            }
+            aux = 0;
+        }
+        return t[valori];
+    }
 }

@@ -205,4 +205,35 @@ public class ArraysUtil {
         }
         return t[valori];
     }
+    public static String FraseMasCorta(String a, String b) {
+        String respuesta;
+        char[] tablaa = a.toCharArray();
+        char[]  tablab = b.toCharArray();
+
+        if (tablaa.length<tablab.length) {
+            respuesta = "La frase mas corta es la primera";
+        }else if (tablaa.length>tablab.length) {
+             respuesta = "La frase mas corta es la segunda";
+           
+        }else{
+            respuesta = "son iguales";
+        }
+
+
+return respuesta;
+        
+    }
+    public static boolean ComparadorStrings(String a, String b){
+       boolean respuesta;
+        
+        char[] tablaa = a.toCharArray();
+        char[]  tablab = b.toCharArray();
+
+        if (a.equals(b)) {
+            respuesta = true;
+        }else{
+            respuesta = false;  
+        }
+        return respuesta;
+    }
 }

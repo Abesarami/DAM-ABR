@@ -26,13 +26,14 @@ public class E0610 {
         for (int i = frase.length() - 1; i >=0 ; i--) {
             char letra = Character.toLowerCase(frase.charAt(i));
             if (letra != ' ') {
-                switch (letra) {
-                    case 'á': letra = 'a'; break;
-                    case 'é': letra = 'e'; break;
-                    case 'í': letra = 'i'; break;
-                    case 'ó': letra = 'o'; break;
-                    case 'ú': letra = 'u'; break;
-                }
+                letra = switch (letra) {
+                    case 'á' -> 'a';
+                    case 'é' -> 'e';
+                    case 'í' -> 'i';
+                    case 'ó' -> 'o';
+                    case 'ú' -> 'u';
+                    default -> letra;
+                };
                 fraseInvertida += letra;
             }
 

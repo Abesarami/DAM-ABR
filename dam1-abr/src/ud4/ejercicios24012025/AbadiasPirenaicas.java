@@ -42,5 +42,6 @@ public class AbadiasPirenaicas {
 
         System.out.println("Podeis construir: "+validoContador);
         System.out.println("En las montañas: "+Arrays.toString(validos));
+        sc.close();
     }
 }

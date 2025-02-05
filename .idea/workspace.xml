@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86983cdb-1c1d-479b-b9b2-7d7826e59da8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud4/stringsapuntes/E0611.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud4/stringsapuntes/E0612.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud4/stringsapuntes/E0613.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud4/stringsapuntes/E0613V2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/src/ud4/stringsapuntes/E0610.java" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/src/ud4/stringsapuntes/E0610.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAM-ABR/ud4/ArraysUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAM-ABR/ud4/ArraysUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAM-ABR/ud4/apuntes/ArrayNumeros.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAM-ABR/ud4/apuntes/ArrayNumeros.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAM-ABR/ud4/apuntes/E0511.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAM-ABR/ud4/apuntes/E0511.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAM-ABR/ud4/ejemplos/trestablas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAM-ABR/ud4/ejemplos/trestablas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAM-ABR/ud4/ejercicios10012025/EP0512_Desordenar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAM-ABR/ud4/ejercicios10012025/EP0512_Desordenar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAM-ABR/ud4/ejercicios10012025/EP0514_Sueldos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAM-ABR/ud4/ejercicios10012025/EP0514_Sueldos.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Abesarami"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Abesarami/DAM-ABR",
+    "accountId": "ccf0ce45-8e5c-4542-9a0a-2581125fda52"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -55,7 +56,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Antonio/Desktop/Programación/DAM-ABR",
+    "last_opened_file_path": "C:/Users/Antonio/Desktop/Programación/fullgambling",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -70,7 +71,7 @@
       <recent name="ud4.stringsapuntes" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.E0611">
     <configuration name="E0611" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ud4.stringsapuntes.E0611" />
       <module name="DAM-ABR" />
@@ -171,6 +172,8 @@
       <workItem from="1737458517592" duration="336000" />
       <workItem from="1737460184664" duration="87000" />
       <workItem from="1738149307592" duration="7674000" />
+      <workItem from="1738667719564" duration="400000" />
+      <workItem from="1738668178783" duration="129000" />
     </task>
     <servers />
   </component>

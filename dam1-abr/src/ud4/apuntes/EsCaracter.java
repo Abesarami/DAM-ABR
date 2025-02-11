@@ -5,6 +5,7 @@ public class EsCaracter {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in) ;
         System.out.println("introduce caracter");
+
         String caracter;
         caracter = sc.next();
         char[] t = caracter.toCharArray();

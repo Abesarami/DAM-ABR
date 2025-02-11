@@ -100,11 +100,11 @@ public class ArraysUtil {
         return suma;
     }
 
-    public static Integer maximo(int t[]) {
+    public static int maximo(int t[]) {
         if (t == null || t.length == 0)
-            return null;
+            return 0;
 
-        Integer maximo = t[0];
+        int maximo = t[0];
 
         for (int i = 1; i < t.length; i++)
             if (t[i] > maximo)

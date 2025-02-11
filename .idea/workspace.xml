@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86983cdb-1c1d-479b-b9b2-7d7826e59da8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud4/agenda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud4/ejercicios05022025/ConjugarVerbos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud4/ejercicios05022025/MontanaRusa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/gson-2.12.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="86983cdb-1c1d-479b-b9b2-7d7826e59da8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,12 +26,12 @@
     &quot;assignee&quot;: &quot;Abesarami&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Abesarami/DAM-ABR",
-    "accountId": "b9b60966-22d8-4ec3-9fa7-3d346bd9e2a0"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Abesarami/DAM-ABR&quot;,
+    &quot;accountId&quot;: &quot;b9b60966-22d8-4ec3-9fa7-3d346bd9e2a0&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -61,19 +55,21 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/abesarami/Programación/DAM-ABR/lib",
+    "last_opened_file_path": "C:/Users/anton/IdeaProjects/DAM-ABR/dam1-abr/src/ud4",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
+    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\anton\IdeaProjects\DAM-ABR\dam1-abr\src\ud4" />
       <recent name="D:\abesarami\Programación\DAM-ABR\lib" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -159,8 +155,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.153" />
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.153" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.189" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.189" />
       </set>
     </attachedChunks>
   </component>
@@ -184,6 +180,7 @@
       <workItem from="1738667719564" duration="400000" />
       <workItem from="1738668178783" duration="129000" />
       <workItem from="1738757061740" duration="4778000" />
+      <workItem from="1739290276682" duration="6825000" />
     </task>
     <servers />
   </component>

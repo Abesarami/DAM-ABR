@@ -2,7 +2,7 @@ package ud4.apuntes;
 
 import java.util.Random;
 
-public class E0501 {
+public class ArraysAleatorios {
     public static void main(String[] args) {
         // Crea una tabla de longitud 10 que se inicializará con números aleatorios comprendidos entre 1 y 100.
         int[] t = arrayAleatorio(10, 1, 100);

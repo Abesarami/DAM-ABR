@@ -2,9 +2,9 @@ package ud4.apuntes;
 
 import java.util.Arrays;
 
-public class E0502 {
+public class ImprimirArrays {
     public static void main(String[] args) {
-        int[] t = E0501.arrayAleatorio(5, -10, 10);
+        int[] t = ArraysAleatorios.arrayAleatorio(5, -10, 10);
 
         System.out.println(Arrays.toString(t));
 

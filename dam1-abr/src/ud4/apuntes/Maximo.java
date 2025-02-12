@@ -2,7 +2,7 @@ package ud4.apuntes;
 
 import java.util.Arrays;
 
-public class E0504 {
+public class Maximo {
     static Integer maximo(int t[]) {
         if (t == null || t.length == 0)
             return null;
@@ -17,7 +17,7 @@ public class E0504 {
     }
 
     public static void main(String[] args) {
-        int[] t = E0501.arrayAleatorio(0, -10, 10);        
+        int[] t = ArraysAleatorios.arrayAleatorio(0, -10, 10);
 
         System.out.println(Arrays.toString(t));
 

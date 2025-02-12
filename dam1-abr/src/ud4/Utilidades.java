@@ -25,6 +25,22 @@ public class Utilidades {
         }
         return array;
     }
+    static int moda(int[] numeros) {
+        int numeroRepetido=0;
+        int num1,num2;
+        int[] t = Arrays.copyOf(numeros, numeros.length);
+        Arrays.sort(t);
+        for (int i = 0; i < t.length; i++){
+            num1 = t[i];
+            num2 = t[i+1];
+            if (num1==num2) {
+                numeroRepetido=num1;
+            }
+
+        }
+
+        return numeroRepetido;
+    }
 
     // Generar una matriz de tamaño dado con valores aleatorios entre min y max
     public static int[][] generarMatriz(int filas, int columnas, int min, int max) {
@@ -460,7 +476,27 @@ public class Utilidades {
             }
             return min;
         }
+        static double mediana(int[] numeros){
+            int[] t = Arrays.copyOf(numeros, numeros.length);
+            Arrays.sort(t);
+            double mediana=0;
+            double numero1,numero2=0;
+            if (t.length%2!=0) {
+                numero1 =(int) t[t.length/2];
+                mediana = t[(int) numero1];
+            }else{
 
+                numero1 = t[t.length/2];
+                numero2 =  t[t.length/2-1];
+
+
+                mediana = (numero1+numero2)/2;
+
+            }
+
+
+            return mediana;
+        }
         // Calcula el promedio de todos los valores de la matriz
         public double promedioMatriz() {
             int suma = 0;

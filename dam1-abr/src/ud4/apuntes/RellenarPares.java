@@ -6,7 +6,7 @@ import java.util.Random;
  * 
  * 
  */
-    public class E0505 {
+    public class RellenarPares {
         
     /**
      * @param longitud

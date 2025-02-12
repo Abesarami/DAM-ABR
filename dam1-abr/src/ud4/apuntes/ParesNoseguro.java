@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 import ud4.ArraysUtil;
 
-public class E0508 {
+public class ParesNoseguro {
 
     public static void main(String[] args) {
         int[] t = new int[0];

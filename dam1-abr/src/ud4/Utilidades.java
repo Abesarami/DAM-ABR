@@ -366,15 +366,13 @@ public class Utilidades {
     }
     public class MatrizUtils {
         private int[][] matriz;
-        private int filas;
-        private int columnas;
         private Random rand = new Random();
         private Scanner scanner = new Scanner(System.in);
 
         // Rellena la matriz con valores aleatorios dentro de un rango dado
         public void rellenarAleatoriamente(int min, int max) {
-            for (int i = 0; i < filas; i++) {
-                for (int j = 0; j < columnas; j++) {
+            for (int i = 0; i < matriz.length; i++) {
+                for (int j = 0; j < matriz[i].length; j++) {
                     matriz[i][j] = rand.nextInt(max - min + 1) + min;
                 }
             }
@@ -382,8 +380,8 @@ public class Utilidades {
 
         // Permite al usuario ingresar valores manualmente en la matriz
         public void rellenarPorTeclado() {
-            for (int i = 0; i < filas; i++) {
-                for (int j = 0; j < columnas; j++) {
+            for (int i = 0; i < matriz.length; i++) {
+                for (int j = 0; j < matriz[i].length; j++) {
                     System.out.print("Ingrese valor para la posición [" + i + "][" + j + "]: ");
                     matriz[i][j] = scanner.nextInt();
                 }
@@ -399,8 +397,8 @@ public class Utilidades {
 
         // Recorre la matriz por filas
         public void recorrerPorFilas() {
-            for (int i = 0; i < filas; i++) {
-                for (int j = 0; j < columnas; j++) {
+            for (int i = 0; i < matriz.length; i++) {
+                for (int j = 0; j < matriz[i].length; j++) {
                     System.out.print(matriz[i][j] + " ");
                 }
                 System.out.println();
@@ -409,8 +407,8 @@ public class Utilidades {
 
         // Recorre la matriz por columnas
         public void recorrerPorColumnas() {
-            for (int j = 0; j < columnas; j++) {
-                for (int i = 0; i < filas; i++) {
+            for (int j = 0; j < matriz[j].length; j++) {
+                for (int i = 0; i < matriz.length; i++) {
                     System.out.print(matriz[i][j] + " ");
                 }
                 System.out.println();
@@ -427,7 +425,7 @@ public class Utilidades {
         // Suma los valores de una fila específica
         public int sumaFila(int fila) {
             int suma = 0;
-            for (int j = 0; j < columnas; j++) {
+            for (int j = 0; j < matriz[j].length; j++) {
                 suma += matriz[fila][j];
             }
             return suma;
@@ -436,7 +434,7 @@ public class Utilidades {
         // Suma los valores de una columna específica
         public int sumaColumna(int columna) {
             int suma = 0;
-            for (int i = 0; i < filas; i++) {
+            for (int i = 0; i < matriz.length; i++) {
                 suma += matriz[i][columna];
             }
             return suma;
@@ -444,7 +442,7 @@ public class Utilidades {
 
         // Inserta un valor en una posición específica de la matriz
         public void insertarValor(int fila, int columna, int valor) {
-            if (fila >= 0 && fila < filas && columna >= 0 && columna < columnas) {
+            if (fila >= 0 && fila < matriz.length && columna >= 0 && columna < matriz[fila].length) {
                 matriz[fila][columna] = valor;
             } else {
                 System.out.println("Posición fuera de rango.");
@@ -454,8 +452,8 @@ public class Utilidades {
         // Encuentra el valor máximo en la matriz
         public int encontrarMaximo() {
             int max = matriz[0][0];
-            for (int i = 0; i < filas; i++) {
-                for (int j = 0; j < columnas; j++) {
+            for (int i = 0; i < matriz.length; i++) {
+                for (int j = 0; j < matriz[i].length; j++) {
                     if (matriz[i][j] > max) {
                         max = matriz[i][j];
                     }
@@ -467,8 +465,8 @@ public class Utilidades {
         // Encuentra el valor mínimo en la matriz
         public int encontrarMinimo() {
             int min = matriz[0][0];
-            for (int i = 0; i < filas; i++) {
-                for (int j = 0; j < columnas; j++) {
+            for (int i = 0; i < matriz.length; i++) {
+                for (int j = 0; j < matriz[i].length; j++) {
                     if (matriz[i][j] < min) {
                         min = matriz[i][j];
                     }
@@ -500,10 +498,11 @@ public class Utilidades {
         // Calcula el promedio de todos los valores de la matriz
         public double promedioMatriz() {
             int suma = 0;
-            int cantidadElementos = filas * columnas;
-            for (int i = 0; i < filas; i++) {
-                for (int j = 0; j < columnas; j++) {
+            int cantidadElementos = 0;
+            for (int i = 0; i < matriz.length; i++) {
+                for (int j = 0; j < matriz[i].length; j++) {
                     suma += matriz[i][j];
+                     cantidadElementos = cantidadElementos+1;
                 }
             }
             return (double) suma / cantidadElementos;

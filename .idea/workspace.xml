@@ -4,28 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86983cdb-1c1d-479b-b9b2-7d7826e59da8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud4/apuntes/EjemploInsercionOrdenada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud4/apuntes/RecorridoRobot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud4/apuntes/torrePerezosa.java" afterDir="false" />
+    <list default="true" id="86983cdb-1c1d-479b-b9b2-7d7826e59da8" name="Changes" comment="123">
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud4/abrexamen/CodificandoMorse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud4/abrexamen/ComplejidadCiclomatica.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/src/ud4/Utilidades.java" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/src/ud4/Utilidades.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/src/ud4/apuntes/E0501.java" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/src/ud4/apuntes/ArraysAleatorios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/src/ud4/apuntes/E0502.java" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/src/ud4/apuntes/ImprimirArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/src/ud4/apuntes/E0503.java" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/src/ud4/apuntes/E0503.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/src/ud4/apuntes/E0504.java" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/src/ud4/apuntes/Maximo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/src/ud4/apuntes/E0505.java" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/src/ud4/apuntes/RellenarPares.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/src/ud4/apuntes/E0508.java" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/src/ud4/apuntes/ParesNoseguro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/src/ud4/apuntes/E0511.java" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/src/ud4/apuntes/JuegoContraseñaAleatoria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/src/ud4/apuntes/MatricesTriangulares.java" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/src/ud4/apuntes/MatricesTriangulares.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAM-ABR/ud4/Utilidades$StringFunctionsExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAM-ABR/ud4/Utilidades$StringFunctionsExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAM-ABR/ud4/Utilidades.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAM-ABR/ud4/Utilidades.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAM-ABR/ud4/apuntes/E0501.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAM-ABR/ud4/apuntes/E0502.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAM-ABR/ud4/apuntes/E0503.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAM-ABR/ud4/apuntes/E0503.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAM-ABR/ud4/apuntes/E0504.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAM-ABR/ud4/apuntes/E0505.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAM-ABR/ud4/apuntes/E0508.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,8 +77,14 @@
       <recent name="D:\abesarami\Programación\DAM-ABR\lib" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ud4.apuntes" />
       <recent name="ud4.stringsapuntes" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="switch" />
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="ConjugarVerbos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -224,6 +212,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="123" />
+    <option name="LAST_COMMIT_MESSAGE" value="123" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

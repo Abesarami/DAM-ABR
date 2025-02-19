@@ -7,7 +7,7 @@ public class CodificandoMorse {
         System.out.println(numPuntosMorse("?"));
         System.out.println(numPuntosMorse("!"));
         System.out.println(numPuntosMorse("SI"));
-        System.out.println(numPuntosMorse("yA NACIO"));
+        System.out.println(numPuntosMorse("vale"));
     }
 
     static int numPuntosMorse(String frase){

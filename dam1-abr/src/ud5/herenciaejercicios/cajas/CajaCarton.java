@@ -1,5 +1,5 @@
 package ud5.herenciaejercicios.cajas;
-import org.junit.jupiter.*;
+
 public class CajaCarton extends caja {
     public CajaCarton(int ancho, int alto, int fondo) {
         super(ancho, alto, fondo);

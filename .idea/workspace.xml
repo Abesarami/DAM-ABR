@@ -5,44 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86983cdb-1c1d-479b-b9b2-7d7826e59da8" name="Changes" comment="123">
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/EjerciciosApuntes/hora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/herenciaejercicios/cajas/CajaCarton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/herenciaejercicios/cajas/caja.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/rol/combate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/pruebas/Pruebas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/herenciaejercicios/punto/Punto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/herenciaejercicios/punto/Punto3d.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/herenciaejercicios/punto/Suceso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/rol/Monstruo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/.vscode/launch.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/bin/repaso/repaso.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/repaso/repaso.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud1/abrexamen/areaperimetrovueltas.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/ud1/abrexamen/areaperimetrovueltas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud1/abrexamen/compras.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/ud1/abrexamen/compras.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud1/ejercicios/EP0111.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/ud1/ejercicios/EP0111.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud1/ejercicios/EP0112.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/ud1/ejercicios/EP0112.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud1/ejercicios/EP0113.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/ud1/ejercicios/EP0113.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud1/ejercicios/abr20241004/EPO116.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/ud1/ejercicios/abr20241004/EPO116.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud1/ejercicios/abr20241004/EPO122.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/ud1/ejercicios/abr20241004/EPO122.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud1/ejercicios/abr20241004/EPO123_ConversionMasa.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/ud1/ejercicios/abr20241004/EPO123_ConversionMasa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud1/ejercicios/abr20241010/EP0129.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/ud1/ejercicios/abr20241010/EP0129.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud1/ejercicios/abr20241010/EP0133.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/ud1/ejercicios/abr20241010/EP0133.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud1/ejercicios/parejas/EjercicioHoras.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/ud1/ejercicios/parejas/EjercicioHoras.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud1/ejercicios/parejas/EjercicioParejasHectareas.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/ud1/ejercicios/parejas/EjercicioParejasHectareas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud2/bucles/E0301.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/ud2/bucles/E0301.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud2/bucles/E0306.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/ud2/bucles/E0306.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud2/bucles/E0317.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/ud2/bucles/E0317.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud2/bucles/multiplos7.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/ud2/bucles/multiplos7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud2/bucles/transformaraBinario.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/ud2/bucles/transformaraBinario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud2/ejemplos/CondicionalSimple.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/ud2/ejemplos/CondicionalSimple.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud2/ejemplos/EP0213.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/ud2/ejemplos/EP0213.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud2/ejemplos/Factura.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/ud2/ejemplos/Factura.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud2/ejemplos/JuegoMates.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/ud2/ejemplos/JuegoMates.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud2/ejemplos/JuegoSuma.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/ud2/ejemplos/JuegoSuma.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud2/ejemplos/JuegoSumacopy.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/ud2/ejemplos/JuegoSumacopy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud2/ejemplos/añobisiesto.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/ud2/ejemplos/añobisiesto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud2/ejemplos/casicero.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/ud2/ejemplos/casicero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud2/ejemplos/ejemplofor3.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/ud2/ejemplos/ejemplofor3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud2/ejemplos/ifanidados.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/ud2/ejemplos/ifanidados.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud2/ejerciciosSwitch/E0212.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud2/ejerciciosSwitch/horasminsec.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/ud2/ejerciciosSwitch/horasminsec.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/src/ud2/ejerciciosSwitch/E0212.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dam1-abr/src/ud5/herenciaejercicios/cajas/CajaCarton.java" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/herenciaejercicios/cajas/CajaCarton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dam1-abr/src/ud5/rol/Personaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/rol/Personaje.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DAM-ABR/ud2/ejerciciosSwitch/E0212.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,39 +53,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BuscaTesouro.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CodificandoMorse.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConjugarVerbos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.E0502.executor&quot;: &quot;Run&quot;,
-    &quot;Application.E0511.executor&quot;: &quot;Run&quot;,
-    &quot;Application.E0611.executor&quot;: &quot;Run&quot;,
-    &quot;Application.E0612.executor&quot;: &quot;Run&quot;,
-    &quot;Application.E0613.executor&quot;: &quot;Run&quot;,
-    &quot;Application.E0613V2.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.EP0512_Desordenar.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MontanaRusa.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/abesarami/Programación/DAM-ABR/dam1-abr/src/ud5/herenciaejercicios/cajas&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BuscaTesouro.executor": "Run",
+    "Application.CodificandoMorse.executor": "Run",
+    "Application.ConjugarVerbos.executor": "Run",
+    "Application.E0502.executor": "Run",
+    "Application.E0511.executor": "Run",
+    "Application.E0611.executor": "Run",
+    "Application.E0612.executor": "Run",
+    "Application.E0613.executor": "Run",
+    "Application.E0613V2.executor": "Debug",
+    "Application.EP0512_Desordenar.executor": "Debug",
+    "Application.MontanaRusa.executor": "Run",
+    "Application.Punto.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/abesarami/Programación/profesorRepositorio2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\abesarami\Programación\DAM-ABR\dam1-abr\src\ud5\herenciaejercicios\cajas" />
       <recent name="D:\abesarami\Programación\DAM-ABR\lib" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ud5.herenciaejercicios.punto" />
       <recent name="ud5.herenciaejercicios" />
       <recent name="ud4.apuntes" />
       <recent name="ud4.stringsapuntes" />
@@ -125,7 +98,7 @@
       <command value="switch" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.CodificandoMorse">
+  <component name="RunManager">
     <configuration name="CodificandoMorse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ud4.abrexamen.CodificandoMorse" />
       <module name="DAM-ABR" />
@@ -236,7 +209,7 @@
       <workItem from="1740049531691" duration="1244000" />
       <workItem from="1740052238946" duration="131000" />
       <workItem from="1740484693721" duration="2843000" />
-      <workItem from="1740561755660" duration="1110000" />
+      <workItem from="1740561755660" duration="8454000" />
     </task>
     <servers />
   </component>

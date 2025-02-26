@@ -1,5 +1,7 @@
 package ud5.rol;
 
+import java.util.Random;
+
 public class Personaje {
 
     private enum RAZAS {
@@ -83,48 +85,7 @@ public class Personaje {
 
     }
 
-    @Override
-    public String toString() {
-        System.out.println(nombre);
-        System.out.println(puntos + "/" + puntosTot);
-        return nombre;
-    }
 
-    public int getPuntos() {
-        return puntos;
-    }
-
-    public int getPuntosTot() {
-        return puntosTot;
-    }
-
-    public int getExperiencia() {
-        return experiencia;
-    }
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public RAZAS getRaza() {
-        return raza;
-    }
-
-    public int getConstitucion() {
-        return constitucion;
-    }
-
-    public int getAgilidad() {
-        return agilidad;
-    }
-
-    public int getFuerza() {
-        return fuerza;
-    }
-
-    public int getNivel() {
-        return nivel;
-    }
 
     public void sumarXP(int puntosXP) {
 
@@ -135,7 +96,66 @@ public class Personaje {
         else experiencia = experiencia + puntosXP;
     }
 
+    
+    public String toString() {
+        return nombre + " (" + puntos + "/" + puntosTot + " hp)";
+    }
+
+    public int getPuntos() { return puntos; }
+    public int getPuntosTot() { return puntosTot; }
+    public int getExperiencia() { return experiencia; }
+    public String getNombre() { return nombre; }
+    public RAZAS getRaza() { return raza; }
+    public int getConstitucion() { return constitucion; }
+    public int getAgilidad() { return agilidad; }
+    public int getFuerza() { return fuerza; }
+    public int getNivel() { return nivel; }
+
+    public byte sumarExperiencia(int puntosXP) {
+        experiencia += puntosXP;
+        byte nivelesSubidos = 0;
+        while (experiencia >= 1000) {
+            experiencia -= 1000;
+            subirNivel();
+            nivelesSubidos++;
+        }
+        return nivelesSubidos;
+    }
+
     private void subirNivel() {
         nivel++;
+        fuerza *= 1.05;
+        agilidad *= 1.05;
+        constitucion *= 1.05;
+        puntosTot = constitucion + 50;
+        if (puntos > puntosTot) {
+            puntos = puntosTot;
+        }
+    }
+
+    public void curar() {
+        puntos = Math.min(puntos, puntosTot);
+    }
+
+    public boolean perderVida(int puntosDanio) {
+        puntos -= puntosDanio;
+        return puntos <= 0;
+    }
+
+    public boolean estaVivo() {
+        return puntos > 0;
+    }
+
+    public int atacar(Personaje enemigo) {
+        Random rand = new Random();
+        int ataque = fuerza + rand.nextInt(100) + 1;
+        int defensa = enemigo.agilidad + rand.nextInt(100) + 1;
+        int danio = Math.max(0, Math.min(ataque - defensa, enemigo.puntos));
+        enemigo.perderVida(danio);
+        this.sumarExperiencia(danio);
+        enemigo.sumarExperiencia(danio);
+        return danio;
     }
 }
+
+

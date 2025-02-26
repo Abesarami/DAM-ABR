@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "hora",
+            "request": "launch",
+            "mainClass": "ud5.EjerciciosApuntes.hora",
+            "projectName": "dam1-abr_8ffff146"
+        },
+        {
+            "type": "java",
             "name": "transformaraBinario",
             "request": "launch",
             "mainClass": "ud2.bucles.transformaraBinario",

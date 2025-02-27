@@ -50,27 +50,44 @@ public class Monstruo {
     public int getPuntosVida() { return puntosVida; }
 
 
+    
     class Orco extends Monstruo {
         public Orco() {
             super("Orco", getRandomValue(30, 80), getRandomValue(30, 50), getRandomValue(30, 60), getRandomValue(30, 100));
         }
+
+        public Orco(String nombre) {
+            super(nombre, getRandomValue(30, 80), getRandomValue(30, 50), getRandomValue(30, 60), getRandomValue(30, 100));
+        }
     }
-    
+
     class Troll extends Monstruo {
         public Troll() {
             super("Troll", getRandomValue(60, 120), getRandomValue(50, 70), getRandomValue(20, 40), getRandomValue(100, 200));
         }
+
+        public Troll(String nombre) {
+            super(nombre, getRandomValue(60, 120), getRandomValue(50, 70), getRandomValue(20, 40), getRandomValue(100, 200));
+        }
     }
-    
+
     class Aranha extends Monstruo {
         public Aranha() {
             super("Aranha", getRandomValue(10, 50), getRandomValue(20, 40), getRandomValue(40, 70), getRandomValue(30, 80));
         }
+
+        public Aranha(String nombre) {
+            super(nombre, getRandomValue(10, 50), getRandomValue(20, 40), getRandomValue(40, 70), getRandomValue(30, 80));
+        }
     }
-    
+
     class Dragon extends Monstruo {
         public Dragon() {
             super("Dragon", getRandomValue(100, 200), getRandomValue(60, 100), getRandomValue(80, 120), getRandomValue(120, 250));
+        }
+
+        public Dragon(String nombre) {
+            super(nombre, getRandomValue(100, 200), getRandomValue(60, 100), getRandomValue(80, 120), getRandomValue(120, 250));
         }
     }
     

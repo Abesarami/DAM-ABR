@@ -5,15 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86983cdb-1c1d-479b-b9b2-7d7826e59da8" name="Changes" comment="123">
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/pruebas/Pruebas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/herenciaejercicios/punto/Punto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/herenciaejercicios/punto/Punto3d.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/herenciaejercicios/punto/Suceso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/rol/Monstruo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/inmobiliaria/Casa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/inmobiliaria/Inmueble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/inmobiliaria/Piso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/inmobiliaria/inmobiliaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/mulleres/AppMujer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/mulleres/Artista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/mulleres/Cientifica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/mulleres/IActivistas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/mulleres/IPionera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/mulleres/MullerTraballadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/mulleres/Politica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/rol/arma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/rol/armadura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/rol/miscelanea.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/src/ud5/herenciaejercicios/cajas/CajaCarton.java" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/herenciaejercicios/cajas/CajaCarton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAM-ABR.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DAM-ABR.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud3/propuestos/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/ud3/propuestos/Persona.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud5/rol/Personaje$RAZAS.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/ud5/rol/Personaje$RAZAS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud5/rol/Personaje.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/ud5/rol/Personaje.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dam1-abr/src/ud5/rol/Personaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/rol/Personaje.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAM-ABR/ud2/ejerciciosSwitch/E0212.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DAM-ABR/ud5/herenciaejercicios/punto/Punto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAM-ABR/ud5/herenciaejercicios/punto/Punto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DAM-ABR/ud5/herenciaejercicios/punto/Punto3d.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAM-ABR/ud5/herenciaejercicios/punto/Punto3d.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DAM-ABR/ud5/rol/Personaje$RAZAS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAM-ABR/ud5/rol/Personaje$RAZAS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DAM-ABR/ud5/rol/Personaje.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAM-ABR/ud5/rol/Personaje.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DAM-ABR/ud5/rol/combate.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +39,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -53,40 +70,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BuscaTesouro.executor": "Run",
-    "Application.CodificandoMorse.executor": "Run",
-    "Application.ConjugarVerbos.executor": "Run",
-    "Application.E0502.executor": "Run",
-    "Application.E0511.executor": "Run",
-    "Application.E0611.executor": "Run",
-    "Application.E0612.executor": "Run",
-    "Application.E0613.executor": "Run",
-    "Application.E0613V2.executor": "Debug",
-    "Application.EP0512_Desordenar.executor": "Debug",
-    "Application.MontanaRusa.executor": "Run",
-    "Application.Punto.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/abesarami/Programación/profesorRepositorio2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App1Inventario.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AppMujer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BuscaTesouro.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CodificandoMorse.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConjugarVerbos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.E0502.executor&quot;: &quot;Run&quot;,
+    &quot;Application.E0511.executor&quot;: &quot;Run&quot;,
+    &quot;Application.E0611.executor&quot;: &quot;Run&quot;,
+    &quot;Application.E0612.executor&quot;: &quot;Run&quot;,
+    &quot;Application.E0613.executor&quot;: &quot;Run&quot;,
+    &quot;Application.E0613V2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.EP0512_Desordenar.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MontanaRusa.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Punto.executor&quot;: &quot;Run&quot;,
+    &quot;Application.inmobiliaria.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/abesarami/Programación/profesorRepositorio2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ud5.inmobiliaria" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\abesarami\Programación\DAM-ABR\dam1-abr\src\ud5\herenciaejercicios\cajas" />
       <recent name="D:\abesarami\Programación\DAM-ABR\lib" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ud5.inmobiliaria" />
       <recent name="ud5.herenciaejercicios.punto" />
       <recent name="ud5.herenciaejercicios" />
       <recent name="ud4.apuntes" />
@@ -99,64 +127,12 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="CodificandoMorse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ud4.abrexamen.CodificandoMorse" />
+    <configuration name="App1Inventario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ud5.rol.App1Inventario" />
       <module name="DAM-ABR" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ud4.abrexamen.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConjugarVerbos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ud4.ejercicios05022025.ConjugarVerbos" />
-      <module name="DAM-ABR" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ud4.ejercicios05022025.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="E0613" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ud4.stringsapuntes.E0613" />
-      <module name="DAM-ABR" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ud4.stringsapuntes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="E0613V2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ud4.stringsapuntes.E0613V2" />
-      <module name="DAM-ABR" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ud4.stringsapuntes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MontanaRusa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ud4.ejercicios05022025.MontanaRusa" />
-      <module name="DAM-ABR" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ud4.ejercicios05022025.*" />
+          <option name="PATTERN" value="ud5.rol.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,19 +142,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CodificandoMorse" />
-        <item itemvalue="Application.ConjugarVerbos" />
-        <item itemvalue="Application.MontanaRusa" />
-        <item itemvalue="Application.E0613V2" />
-        <item itemvalue="Application.E0613" />
+        <item itemvalue="Application.App1Inventario" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.153" />
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.153" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
       </set>
     </attachedChunks>
   </component>
@@ -210,6 +182,12 @@
       <workItem from="1740052238946" duration="131000" />
       <workItem from="1740484693721" duration="2843000" />
       <workItem from="1740561755660" duration="8454000" />
+      <workItem from="1740647290502" duration="289000" />
+      <workItem from="1740647796143" duration="4066000" />
+      <workItem from="1741245572726" duration="3650000" />
+      <workItem from="1741249345027" duration="453000" />
+      <workItem from="1741249899942" duration="7570000" />
+      <workItem from="1741261768519" duration="633000" />
     </task>
     <servers />
   </component>
@@ -256,6 +234,11 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="ud5.rol.PersonajeEX" memberName="inventario" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

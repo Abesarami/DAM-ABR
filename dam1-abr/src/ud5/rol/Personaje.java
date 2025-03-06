@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Personaje {
 
-    private enum RAZAS {
+    public enum RAZAS {
         HUMANO, ELFO, ENANO, HOBBIT,
         ORCO, TROLL
     }
@@ -51,22 +51,24 @@ public class Personaje {
         this.raza = RAZAS.HUMANO;
         this.nivel = 1;
         this.experiencia = 0;
-        this.fuerza = (int) Math.random() * 100 + 1;
-        this.agilidad = (int) Math.random() * 100 + 1;
-        this.constitucion = (int) Math.random() * 100 + 1;
+        this.fuerza = getRandomValue(0, 100);
+        this.agilidad = getRandomValue(0, 100);
+        this.constitucion = getRandomValue(0, 100);
         this.puntosTot = constitucion + 50;
         this.puntos = puntosTot;
 
     }
-
+    private static int getRandomValue(int min, int max) {
+        return new Random().nextInt(max - min + 1) + min;
+    }
     public Personaje(String nombre, RAZAS raza) {
         this.nombre = nombre;
         this.raza = raza;
         this.nivel = 1;
         this.experiencia = 0;
-        this.fuerza = (int) Math.random() * 100 + 1;
-        this.agilidad = (int) Math.random() * 100 + 1;
-        this.constitucion = (int) Math.random() * 100 + 1;
+        this.fuerza = getRandomValue(0, 100);
+        this.agilidad = getRandomValue(0, 100);
+        this.constitucion = getRandomValue(0, 100);
         this.puntosTot = constitucion + 50;
         this.puntos = puntosTot;
 

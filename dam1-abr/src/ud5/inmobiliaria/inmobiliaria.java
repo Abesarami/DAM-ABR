@@ -1,5 +1,8 @@
 package ud5.inmobiliaria;
 
+import java.util.Arrays;
+import java.util.Comparator;
+
 public class inmobiliaria {
 public static void main(String[] args) {
         // 1.1. Modelo de Clases
@@ -29,7 +32,27 @@ public static void main(String[] args) {
         System.out.println(piso2.detalle());
         System.out.println("");
         System.out.println(casa2.detalle());
+
+        Inmueble[] inmuebles = {
+                piso1,
+                piso2,
+                casa1,
+                casa2
+        };
+        Arrays.sort(inmuebles,Comparator.comparing(Inmueble::getCalle));
+
+
     }
+        static void sortMetrosDesc(Inmueble[] t){
+                Arrays.sort(t,Comparator.comparing(Inmueble::getMetros));
+
+        }
+        static void sortHabMetrosDesc(Inmueble[] t){
+                Arrays.sort(t,Comparator.comparingInt(Inmueble::getHabitaciones));
+        }
+        void sortPrecioAlquilerAsc(Inmueble[] t){
+                Arrays.sort(t,Comparator.comparingInt(Inmueble::getPrecioAlquiler));
+        }
 
 
 }

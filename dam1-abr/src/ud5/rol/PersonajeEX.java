@@ -1,6 +1,7 @@
 package ud5.rol;
 
 import java.util.Arrays;
+import java.util.Objects;
 
 public class PersonajeEX extends Personaje {
     public int monedas;
@@ -126,12 +127,12 @@ public class PersonajeEX extends Personaje {
     private boolean equiparArmadura(item objeto) {
         boolean comprobacion = false;
         objeto = (armadura) objeto;
-        if (((armadura) objeto).getTipo()=="YELMO"){
+        if (Objects.equals(((armadura) objeto).getTipo(), "YELMO")){
             if (cabeza == null){
                 cabeza = objeto;
                 comprobacion = true;
             }
-        } else if (((armadura) objeto).getTipo()=="ARMADURA") {
+        } else if (Objects.equals(((armadura) objeto).getTipo(), "ARMADURA")) {
             if (cuerpo == null){
                 cuerpo = objeto;
                 comprobacion = true;

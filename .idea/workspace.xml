@@ -5,41 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86983cdb-1c1d-479b-b9b2-7d7826e59da8" name="Changes" comment="123">
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/inmobiliaria/Casa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/inmobiliaria/Inmueble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/inmobiliaria/Piso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/inmobiliaria/inmobiliaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/mulleres/AppMujer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/mulleres/Artista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/mulleres/Cientifica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/mulleres/IActivistas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/mulleres/IPionera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/mulleres/MullerTraballadora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/mulleres/Politica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/rol/arma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/rol/armadura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/rol/miscelanea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test Results - PasswordValidatorTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/Contornos/MathUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/Contornos/MathUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/Contornos/PasswordValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/Contornos/PasswordValidatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/Contornos/TemperatureConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/Contornos/TemperatureConverterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/bing/bingo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/inmobiliaria/ordenador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/interfaces/E910/E910.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAM-ABR.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DAM-ABR.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud3/propuestos/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/ud3/propuestos/Persona.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud5/rol/Personaje$RAZAS.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/ud5/rol/Personaje$RAZAS.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud5/rol/Personaje.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/ud5/rol/Personaje.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/src/ud5/rol/Personaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/rol/Personaje.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAM-ABR/ud5/herenciaejercicios/punto/Punto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAM-ABR/ud5/herenciaejercicios/punto/Punto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAM-ABR/ud5/herenciaejercicios/punto/Punto3d.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAM-ABR/ud5/herenciaejercicios/punto/Punto3d.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAM-ABR/ud5/rol/Personaje$RAZAS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAM-ABR/ud5/rol/Personaje$RAZAS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAM-ABR/ud5/rol/Personaje.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAM-ABR/ud5/rol/Personaje.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAM-ABR/ud5/rol/combate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dam1-abr/src/ud4/ArraysUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/src/ud4/ArraysUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dam1-abr/src/ud5/inmobiliaria/Inmueble.java" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/inmobiliaria/Inmueble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dam1-abr/src/ud5/inmobiliaria/inmobiliaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/inmobiliaria/inmobiliaria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dam1-abr/src/ud5/rol/PersonajeEX.java" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/rol/PersonajeEX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DAM-ABR/ud4/ArraysUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAM-ABR/ud4/ArraysUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DAM-ABR/ud5/rol/PersonajeEX.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAM-ABR/ud5/rol/PersonajeEX.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" userTempatePath="" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -83,16 +80,26 @@
     &quot;Application.E0612.executor&quot;: &quot;Run&quot;,
     &quot;Application.E0613.executor&quot;: &quot;Run&quot;,
     &quot;Application.E0613V2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.E910.executor&quot;: &quot;Run&quot;,
     &quot;Application.EP0512_Desordenar.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MathUtils.executor&quot;: &quot;Run&quot;,
     &quot;Application.MontanaRusa.executor&quot;: &quot;Run&quot;,
     &quot;Application.Punto.executor&quot;: &quot;Run&quot;,
     &quot;Application.inmobiliaria.executor&quot;: &quot;Run&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.MathUtilsTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MathUtilsTest.testExcepcionFactorial.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MathUtilsTest.testFactorial.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PasswordValidatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PasswordValidatorTest.isValidtest.executor&quot;: &quot;Run&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
     &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/abesarami/Programación/profesorRepositorio2&quot;,
@@ -101,7 +108,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -112,6 +119,12 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\abesarami\Programación\DAM-ABR\dam1-abr\src\ud5\herenciaejercicios\cajas" />
       <recent name="D:\abesarami\Programación\DAM-ABR\lib" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Contornos" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ud5.inmobiliaria" />
@@ -126,23 +139,92 @@
       <command value="switch" />
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="App1Inventario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ud5.rol.App1Inventario" />
+  <component name="RunManager" selected="JUnit.MathUtilsTest">
+    <configuration name="MathUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DAM-ABR" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ud5.rol.*" />
+          <option name="PATTERN" value="Contornos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Contornos" />
+      <option name="MAIN_CLASS_NAME" value="Contornos.MathUtilsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathUtilsTest.testExcepcionFactorial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DAM-ABR" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Contornos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Contornos" />
+      <option name="MAIN_CLASS_NAME" value="Contornos.MathUtilsTest" />
+      <option name="METHOD_NAME" value="testExcepcionFactorial" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathUtilsTest.testFactorial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DAM-ABR" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Contornos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Contornos" />
+      <option name="MAIN_CLASS_NAME" value="Contornos.MathUtilsTest" />
+      <option name="METHOD_NAME" value="testFactorial" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasswordValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DAM-ABR" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Contornos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Contornos" />
+      <option name="MAIN_CLASS_NAME" value="Contornos.PasswordValidatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasswordValidatorTest.isValidtest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DAM-ABR" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Contornos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Contornos" />
+      <option name="MAIN_CLASS_NAME" value="Contornos.PasswordValidatorTest" />
+      <option name="METHOD_NAME" value="isValidtest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App1Inventario" />
+        <item itemvalue="JUnit.PasswordValidatorTest" />
+        <item itemvalue="JUnit.PasswordValidatorTest.isValidtest" />
+        <item itemvalue="JUnit.MathUtilsTest.testFactorial" />
+        <item itemvalue="JUnit.MathUtilsTest" />
+        <item itemvalue="JUnit.MathUtilsTest.testExcepcionFactorial" />
       </list>
     </recent_temporary>
   </component>
@@ -188,6 +270,12 @@
       <workItem from="1741249345027" duration="453000" />
       <workItem from="1741249899942" duration="7570000" />
       <workItem from="1741261768519" duration="633000" />
+      <workItem from="1741596743162" duration="2056000" />
+      <workItem from="1741693252412" duration="2958000" />
+      <workItem from="1741772686980" duration="5478000" />
+      <workItem from="1741859295989" duration="4464000" />
+      <workItem from="1742209762508" duration="67000" />
+      <workItem from="1742301502501" duration="3091000" />
     </task>
     <servers />
   </component>

@@ -56,6 +56,17 @@ public class ArraysUtil {
         return t;
     }
 
+    public static Integer[] arrayAleatorioInteger(int n, int rndInicio, int rndFin) {
+        Integer[] t = new Integer[n];
+        Random rnd = new Random();
+
+        for (int i = 0; i < n; i++) {
+            t[i] = (Integer) rnd.nextInt(rndFin - rndInicio + 1) + rndInicio;
+        }
+
+        return t;
+    }
+
     /**
      * Rellena una tabla con números enteros leídos de teclado.
      * 

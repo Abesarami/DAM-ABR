@@ -13,7 +13,19 @@ public abstract class Inmueble {
             this.baños = baños;
         }
 
-        public int getPrecioAlquiler() {
+    public String getCalle() {
+        return calle;
+    }
+
+    public int getMetros() {
+        return metros;
+    }
+
+    public int getHabitaciones() {
+        return habitaciones;
+    }
+
+    public int getPrecioAlquiler() {
             return precioAlquiler;
         }
 
@@ -29,6 +41,7 @@ public abstract class Inmueble {
             this.precioVenta = precioVenta;
         }
         public abstract String detalle();
+
     }
 
 

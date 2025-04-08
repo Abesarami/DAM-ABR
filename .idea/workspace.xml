@@ -5,20 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86983cdb-1c1d-479b-b9b2-7d7826e59da8" name="Changes" comment="123">
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/Contornos/AgeClassifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/Contornos/AgeClassifierTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/Contornos/pruebasConversor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/bingoProfesor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud5/preguntas/examen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dam1-abr/src/ud6/E1201_MetodosGenericos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/Contornos/CalculadoraDuplicado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/UD6/ContenedorLista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/UD6/E1204.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/UD6/E1208.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/UD6/E1210.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/UD6/E1212.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/UD6/E1213.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/UD6/Pila.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dam1-abr/src/UD6/Sorteo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud3/propuestos/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/ud3/propuestos/Persona.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/bin/ud4/ArraysUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/bin/ud4/ArraysUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dam1-abr/src/ud5/bing/bingo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAM-ABR/ud5/inmobiliaria/Inmueble.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAM-ABR/ud5/inmobiliaria/Inmueble.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DAM-ABR/ud5/inmobiliaria/inmobiliaria.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAM-ABR/ud5/inmobiliaria/inmobiliaria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dam1-abr/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dam1-abr/src/ud4/ArraysUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/dam1-abr/src/ud4/ArraysUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dam1-abr/src/ud6/E1201_MetodosGenericos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DAM-ABR/ud4/ArraysUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DAM-ABR/ud4/ArraysUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DAM-ABR/ud5/bing/Jugador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DAM-ABR/ud5/bing/bingo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DAM-ABR/ud5/bing/carton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DAM-ABR/ud5/bing/maquinaBingo.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -61,52 +66,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.App1Inventario.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AppMujer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BuscaTesouro.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CodificandoMorse.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConjugarVerbos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.E0502.executor&quot;: &quot;Run&quot;,
-    &quot;Application.E0511.executor&quot;: &quot;Run&quot;,
-    &quot;Application.E0611.executor&quot;: &quot;Run&quot;,
-    &quot;Application.E0612.executor&quot;: &quot;Run&quot;,
-    &quot;Application.E0613.executor&quot;: &quot;Run&quot;,
-    &quot;Application.E0613V2.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.E910.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EP0512_Desordenar.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MathUtils.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MontanaRusa.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Punto.executor&quot;: &quot;Run&quot;,
-    &quot;Application.inmobiliaria.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;JUnit.AgeClassifierTest.test1.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MathUtilsTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MathUtilsTest.testExcepcionFactorial.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MathUtilsTest.testFactorial.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PasswordValidatorTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PasswordValidatorTest.isValidtest.executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/abesarami/Programación/profesorRepositorio2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App1Inventario.executor": "Run",
+    "Application.AppMujer.executor": "Run",
+    "Application.BuscaTesouro.executor": "Run",
+    "Application.CodificandoMorse.executor": "Run",
+    "Application.ConjugarVerbos.executor": "Run",
+    "Application.E0502.executor": "Run",
+    "Application.E0511.executor": "Run",
+    "Application.E0611.executor": "Run",
+    "Application.E0612.executor": "Run",
+    "Application.E0613.executor": "Run",
+    "Application.E0613V2.executor": "Debug",
+    "Application.E1204.executor": "Run",
+    "Application.E910.executor": "Run",
+    "Application.EP0512_Desordenar.executor": "Debug",
+    "Application.MathUtils.executor": "Run",
+    "Application.MontanaRusa.executor": "Run",
+    "Application.Punto.executor": "Run",
+    "Application.Servidor.executor": "Run",
+    "Application.inmobiliaria.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.AgeClassifierTest.executor": "Coverage",
+    "JUnit.AgeClassifierTest.test1.executor": "Coverage",
+    "JUnit.MathUtilsTest.executor": "Run",
+    "JUnit.MathUtilsTest.testExcepcionFactorial.executor": "Run",
+    "JUnit.MathUtilsTest.testFactorial.executor": "Run",
+    "JUnit.PasswordValidatorTest.executor": "Run",
+    "JUnit.PasswordValidatorTest.isValidtest.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/abesarami/Programación/profesorRepositorio2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "http.proxy",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ud5.inmobiliaria" />
@@ -134,12 +142,40 @@
       <command value="switch" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AgeClassifierTest.test1">
+  <component name="RunManager" selected="Application.Host">
+    <configuration name="Host" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ud5.abrexamen.Host" />
+      <module name="DAM-ABR" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ud5.abrexamen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AgeClassifierTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DAM-ABR" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UD6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Contornos" />
+      <option name="MAIN_CLASS_NAME" value="Contornos.AgeClassifierTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AgeClassifierTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DAM-ABR" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Contornos.*" />
+          <option name="PATTERN" value="UD6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,42 +187,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DAM-ABR" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Contornos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Contornos" />
-      <option name="MAIN_CLASS_NAME" value="Contornos.MathUtilsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MathUtilsTest.testFactorial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DAM-ABR" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Contornos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Contornos" />
-      <option name="MAIN_CLASS_NAME" value="Contornos.MathUtilsTest" />
-      <option name="METHOD_NAME" value="testFactorial" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PasswordValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DAM-ABR" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Contornos.*" />
+          <option name="PATTERN" value="UD6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,7 +206,7 @@
       <module name="DAM-ABR" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Contornos.*" />
+          <option name="PATTERN" value="UD6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Host" />
         <item itemvalue="JUnit.AgeClassifierTest.test1" />
+        <item itemvalue="JUnit.AgeClassifierTest" />
         <item itemvalue="JUnit.PasswordValidatorTest" />
         <item itemvalue="JUnit.PasswordValidatorTest.isValidtest" />
-        <item itemvalue="JUnit.MathUtilsTest.testFactorial" />
-        <item itemvalue="JUnit.MathUtilsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -275,6 +280,13 @@
       <workItem from="1742385076856" duration="3780000" />
       <workItem from="1742464726506" duration="657000" />
       <workItem from="1742561228118" duration="1918000" />
+      <workItem from="1742904166643" duration="112000" />
+      <workItem from="1742908068930" duration="726000" />
+      <workItem from="1742974219265" duration="4922000" />
+      <workItem from="1742991671952" duration="1341000" />
+      <workItem from="1743069536121" duration="2577000" />
+      <workItem from="1743506136982" duration="1956000" />
+      <workItem from="1743580961985" duration="7436000" />
     </task>
     <servers />
   </component>
@@ -330,5 +342,10 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DAM_ABR$AgeClassifierTest_test1.ic" NAME="AgeClassifierTest.test1 Coverage Results" MODIFIED="1742904269685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>Contornos.*</FILTER>
+    </SUITE>
   </component>
 </project>

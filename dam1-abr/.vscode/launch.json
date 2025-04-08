@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Servidor",
+            "request": "launch",
+            "mainClass": "ud5.abrexamen.Servidor",
+            "projectName": "dam1-abr_8ffff146"
+        },
+        {
+            "type": "java",
+            "name": "Cliente",
+            "request": "launch",
+            "mainClass": "ud5.abrexamen.Cliente",
+            "projectName": "dam1-abr_8ffff146"
+        },
+        {
+            "type": "java",
+            "name": "Host",
+            "request": "launch",
+            "mainClass": "ud5.abrexamen.Host",
+            "projectName": "dam1-abr_8ffff146"
+        },
+        {
+            "type": "java",
             "name": "hora",
             "request": "launch",
             "mainClass": "ud5.EjerciciosApuntes.hora",

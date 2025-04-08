@@ -165,6 +165,10 @@ public class ArraysUtil {
         return t;
 
     }
+    /*void insetarAlPrincipio(T nuevo) {
+        System.arraycopy(list,0,list,1,list.length+1);
+        list[0]=nuevo;
+    }*/
 
     public static  void mostrarMatriz(int[][] t) {
         for (int i = 0; i < t.length; i++) {

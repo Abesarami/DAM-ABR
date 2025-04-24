@@ -116,9 +116,7 @@ public class Feitizo {
 
     public static Map<String, Integer> ingredientesVecesUsados(Collection<Feitizo> feitizos) {
         Map<String,Integer> Contador =null;
-        for (int i = 0; i < feitizos.size(); i++) {
-         
-        }
+
         
         return null;
     }

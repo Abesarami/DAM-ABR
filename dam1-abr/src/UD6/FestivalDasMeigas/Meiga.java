@@ -1,7 +1,11 @@
 package UD6.FestivalDasMeigas;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Random;
@@ -17,9 +21,9 @@ public class Meiga {
     private Map<String, Integer> inventario;
 
     public Meiga(String nome, String alcumeMaxicos, Collection<Feitizo> feitizos, Map<String, Integer> inventario) {
-            Nome = nome;
-            AlcumeMaxicos = alcumeMaxicos;
-            Feitizos = Feitizos;
+        Nome = nome;
+        AlcumeMaxicos = alcumeMaxicos;
+        feitizos = Feitizos;
         this.inventario = inventario;
     }
 
@@ -61,18 +65,37 @@ public class Meiga {
         return Feitizos;
     }
 
-
-    //metodos
+    // metodos
     private static Collection<Feitizo> getFeitizosRnd(Collection<Feitizo> feitizosExemplo) {
-        Random rnd = new Random();
-        for (int i = 0; i < 5; i++) {
-           int aleat= rnd.nextInt(Feitizo.crearFeitizosExemplo().length-0+1);
-            Collection<Feitizo> Feitizos = Feitizos.add(Feitizo.crearFeitizosExemplo()[aleat]);
+       
+        List<Feitizo> lista = new ArrayList<>(feitizosExemplo);
+        Collections.shuffle(lista);
+        
+        Set<Feitizo> devolucion = new HashSet<>();
+        Iterator<Feitizo> it = lista.iterator();
+        int i = 0;
+        while (it.hasNext() && i < 5 ) {
+            devolucion.add(it.next());
+            i++;
+            
         }
-                return Feitizos;
+        return devolucion;
     }
 
     private static Map<String, Integer> getIngredientesRnd(Collection<String> ingredientesExemplo, int i) {
+
+        List<Feitizo> lista = new ArrayList<>(ingredientesExemplo);
+        Collections.shuffle(lista);
+        
+        Set<Feitizo> devolucion = new HashSet<>();
+        Iterator<Feitizo> it = lista.iterator();
+        int i = 0;
+        while (it.hasNext() && i < 5 ) {
+            devolucion.add(it.next());
+            i++;
+            
+        }
+        return devolucion;
     }
 
     public static Meiga[] crearMeigasExemplo(Feitizo[] feitizosDisponibles) {
@@ -93,20 +116,17 @@ public class Meiga {
             // Xera unha colección cunha selección aleatoria de feitizos de exemplo para
             // asignar á meiga
             Collection<Feitizo> feitizos = getFeitizosRnd(feitizosExemplo);
-                        // Xera un mapa cunha selección aleatoria de ingredientes e cantidades de cada
-                        // un de exemplo para asignar á meiga
-                        Map<String, Integer> inventario = getIngredientesRnd(ingredientesExemplo, 3);
-                                    
-                                                // Crea a meiga e a engade ao array
-                                                meigas[i] = new Meiga(nome, alcume, feitizos, inventario);
-                                            }
-                                    
-                                            return meigas;
-                                    
-                                        }
-                        
-                           
-               
+            // Xera un mapa cunha selección aleatoria de ingredientes e cantidades de cada
+            // un de exemplo para asignar á meiga
+            Map<String, Integer> inventario = getIngredientesRnd(ingredientesExemplo, 3);
+
+            // Crea a meiga e a engade ao array
+            meigas[i] = new Meiga(nome, alcume, feitizos, inventario);
+        }
+
+        return meigas;
+
+    }
 
 }
 

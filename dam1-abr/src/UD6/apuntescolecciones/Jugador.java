@@ -96,8 +96,8 @@ public class Jugador implements Comparable<Jugador> {
     }
 
     static void mostrar(Map<Integer, Jugador> plantilla,Posicion posicion) {
-        
-        for (Map.Entry<Integer, Jugador> entry : plantilla.entrySet()) {
+
+        for (Map.Entry<Integer, Jugador> entry : plantilla.entrySet()) {  //ESTO ES UN FOREACH
            if (entry.getValue().getPosicion()==posicion) {
             System.out.println(entry.getKey() + " - " + entry.getValue());
            }
@@ -144,6 +144,7 @@ public class Jugador implements Comparable<Jugador> {
 
         Jugador.editarJugador(plantilla, 2, j3);
         Jugador.mostrar(plantilla, Posicion.CENTROCAMPISTA);
+
         }
         
         
@@ -152,7 +153,7 @@ public class Jugador implements Comparable<Jugador> {
         }
 
        
-       
+
      
        
 

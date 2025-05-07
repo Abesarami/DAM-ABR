@@ -82,7 +82,7 @@ public class Meiga {
         return devolucion;
     }
 
-    private static Map<String, Integer> getIngredientesRnd(Collection<String> ingredientesExemplo, int i) {
+  /*  private static Map<String, Integer> getIngredientesRnd(Collection<String> ingredientesExemplo, int i) {
 
         List<Feitizo> lista = new ArrayList<>(ingredientesExemplo);
         Collections.shuffle(lista);
@@ -96,7 +96,7 @@ public class Meiga {
             
         }
         return devolucion;
-    }
+    }*/
 
     public static Meiga[] crearMeigasExemplo(Feitizo[] feitizosDisponibles) {
         Random rnd = new Random();
@@ -118,10 +118,10 @@ public class Meiga {
             Collection<Feitizo> feitizos = getFeitizosRnd(feitizosExemplo);
             // Xera un mapa cunha selección aleatoria de ingredientes e cantidades de cada
             // un de exemplo para asignar á meiga
-            Map<String, Integer> inventario = getIngredientesRnd(ingredientesExemplo, 3);
+            //Map<String, Integer> inventario = getIngredientesRnd(ingredientesExemplo, 3);
 
             // Crea a meiga e a engade ao array
-            meigas[i] = new Meiga(nome, alcume, feitizos, inventario);
+         //   meigas[i] = new Meiga(nome, alcume, feitizos, inventario);
         }
 
         return meigas;

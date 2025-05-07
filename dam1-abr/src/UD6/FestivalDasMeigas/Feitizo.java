@@ -90,6 +90,7 @@ public class Feitizo {
         Feitizo f6 = new Feitizo("Bendición Floral", ingredientes6, 2);
 
         return new Feitizo[]{f1, f2, f3, f4, f5, f6};
+        
     }
 
     public static Collection<String> ingredientesUnicos(Collection<Feitizo> feitizos) {
